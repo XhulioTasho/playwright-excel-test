@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+build/
+*.log
+
+# Env
+.env
+.replit
+theme.json
+
+# Auto-generated
+package-lock.json
+*.traineddata
+*.png
+
+# Playwright
+test-results/
+test-reports/
+trace.zip

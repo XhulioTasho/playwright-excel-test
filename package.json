@@ -1,0 +1,24 @@
+{
+  "name": "playwright-excel-tests",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.7",
+    "tesseract.js": "^6.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "20.16.11"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "install-browsers": "playwright install",
+    "install-deps": "playwright install-deps",
+    "update-playwright": "npm install playwright@latest"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.8"
+  }
+}
